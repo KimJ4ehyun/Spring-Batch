@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: ecofarming
+
+  profiles:
+    active: local # 기본 프로파일 설정
+
+  batch:
+    jdbc:
+      initialize-schema: always
+
+server:
+  servlet:
+    context-path: /api
